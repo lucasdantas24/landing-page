@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+    
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <title>Game Store</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <img src="./assets/logo.png" width="50" height="50">
+      <a class="navbar-brand" href="#" style="color: #fff;">Game Store</a>
+      <button class="navbar-toggler" type="button" style="color: #fff;" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Loja <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Preço</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Produtos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Acessórios</a>
+              <a class="dropdown-item" href="#">Jogos</a>
+              <a class="dropdown-item" href="#">Headsets</a>
+              <a class="dropdown-item" href="#">PCs</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contatos">Contate-nos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Conteiner-do-formulário">Cadastre-se</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="section-principal background-container">
+      <h1>Game Store, a maior loja de games da internet</h1>
+      <br>
+      <p>Nossa empresa busca sempre oferecer os melhores preços e promoções, e essa newsletter é uma forma de divulgar nosso contéudo para as pessoas!</p>
+    </section>
+
+    <section class="section-cards background-container">
+      <div class="card-container">
+        <div class="card">
+          <img src="./assets/headset.jpg" alt="headset">
+          <p>Tenha acesso aos melhores headsets do mercado</p>
+        </div>
+        <div class="card">
+          <img src="./assets/pc.png" alt="PCs" width="">
+          <p>Compre PCs com as mesmas configs dos pro players</p>
+        </div>
+        <div class="card">
+          <img src="./assets/teclado.jpg" alt="Teclado">
+          <p>Compre os melhores acessórios do mercado</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-container background-container" id="Conteiner-do-formulário">
+      <div id="content">
+        <h1>Cadastre-se para receber informações sobre nossas promoções</h1>
+        <p>Iremos enviar as melhores promoções do mundo dos jogos</p>
+        <form id="form">
+          <input type="text" placeholder="name" id="nome" required value>
+          <input type="text" placeholder="email" id="email" required value>
+          <input type="submit" value="Cadastrar">
+        </form>
+      </div>
+    </section>
+
+    <section class="contacts-container" id="contatos">
+      <p>Redes Sociais:</p>
+      <div>
+        <p>Facebook: Game Store</p>
+        <p>Twitter: @gamestoreoficial</p>
+        <p>Telefone: (11)29192919</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Copyright 2021 | Todos direitos reservados</p>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
